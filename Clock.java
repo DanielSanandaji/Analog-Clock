@@ -20,8 +20,8 @@ private void drawStructure(Graphics g){
 g.setFont(new Font("Arial", Font.BOLD, 20));
 g.setColor(Color.black);
 g.fillOval(xcenter - 150, ycenter - 150, 300, 300);
-g.setColor(Color.blue);
-g.drawString("Daniel Sanandaji" ,113,300);
+g.setColor(Color.YELLOW);
+g.drawString("Daniel Sanandaji" ,113,350);
 g.setColor(Color.green);
 g.drawString("9", xcenter - 145, ycenter +0);
 g.drawString("3", xcenter + 135, ycenter + 10);
